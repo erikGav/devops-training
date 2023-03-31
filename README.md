@@ -2,7 +2,7 @@
 
 This repository is made to showcase my progress in learning devops
 
-Topic learned:
+Topics learned:
 * Languages - Python, Bash, Powershell, JavaScript
 * AWS - EC2, ALB, ASG, ACM, S3, RDS, ECR, ECS, ElasticBeanstalk, ElasticCache, Amazon MQ, Route53, CloudWatch
 * Containerization - Docker, K8S
