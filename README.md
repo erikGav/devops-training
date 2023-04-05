@@ -13,4 +13,5 @@ Topics learned:
 
 Still learning:
 * IaC - Ansible, Terraform
+* AWS - VPC
 * Integrating - Jenkins with K8S, Jenkins with Ansible, Terraform on any cloud provider
