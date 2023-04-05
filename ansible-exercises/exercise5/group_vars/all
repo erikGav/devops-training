@@ -1,0 +1,4 @@
+# Variables accessiable by ALL the Hosts from the inventory file
+dbuser: pevops
+dbpass: 12345
+dbname: employee

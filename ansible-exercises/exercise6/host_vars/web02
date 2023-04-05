@@ -1,0 +1,3 @@
+# Variable accessible by web02 host
+usrnm: web02usr
+commnt: "web02usr create by vars file"

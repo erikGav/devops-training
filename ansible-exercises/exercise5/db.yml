@@ -1,0 +1,41 @@
+---
+- name: Setup DBServer
+  hosts: db
+  become: yes
+#  vars:
+#    dbname: groups
+#    dbuser: bevops
+#    dbpass: 12345
+  tasks:
+    - debug:
+        var: dbname
+    - debug:
+        msg: "creating a new database user {{ dbuser }}"
+
+    - name: Install MySQL server
+      yum:
+        name: mariadb-server
+        state: present
+
+    - name: Start & Enable mariadb
+      service:
+        name: mariadb
+        state: started
+        enabled: yes
+
+    - name: Install python mysql
+      yum:
+        name: MySQL-python
+        state: present
+
+    - name: Create database named accounts
+      mysql_db:
+        name: "{{ dbname }}"
+        state: present
+
+    - name: Add user to database
+      mysql_user:
+        name: "{{ dbuser  }}"
+        password: "{{ dbpass }}"
+        priv: '*.*:ALL'
+        state: present

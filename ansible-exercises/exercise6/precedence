@@ -1,0 +1,5 @@
+inline vars
+playbook vars
+host_vars/{hostname}
+group_vars/{group_name}
+group_var/all

@@ -1,0 +1,3 @@
+# Variables accessiable by web group
+usrnm: webusr
+commnt: "web user"
