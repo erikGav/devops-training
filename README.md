@@ -10,8 +10,8 @@ Topics learned:
 * Version Control - Git
 * Artifact Repos - Nexus
 * Code Test - SonarQube
+* IaC - Ansible, Terraform
 
 Still learning:
-* IaC - Ansible, Terraform
 * AWS - VPC
 * Integrating - Jenkins with K8S, Jenkins with Ansible, Terraform on any cloud provider
