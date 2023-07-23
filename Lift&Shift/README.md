@@ -7,9 +7,9 @@
 * Tomcat
 
 ## AWS Services
-* EC2:
-	RabbitMQ, MySQL, Memcached and Tomcat, configure EC2 instances using user data
-* Security Groups:
+* EC2 -
+	* RabbitMQ, MySQL, Memcached and Tomcat, configure EC2 instances using user data
+* Security Groups -
 	* Web Server - Allow SSH and load balancer traffic to Tomcat web server
 	* Backend Services - Allow port 3306(MySQL), 11211(RabbitMQ), 5672(Memcached) from web server
    		     Allow internal traffic between backed services
