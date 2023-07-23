@@ -20,10 +20,9 @@
 * S3 Bucket - Store artifact after build
 * Autoscaling Group - Scale app based on load
 
-## App Deployment
-App is written in Java so I used Maven to build it locally on my PC
-After build upload artifact to S3 Bucket using AWS CLI
-Connect to Tomcat server via SSH and copy the artifact using AWS CLI
+## App Deployment Procderue
+Build app using 
+
 	
 
 ## Architecture
