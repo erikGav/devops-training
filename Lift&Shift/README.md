@@ -21,9 +21,11 @@
 * Autoscaling Group - Scale app based on load
 
 ## App Deployment Procderue
-Build app using 
-
-	
+* Update application.properties file with the correct DNS names
+* Build app using Maven
+* Push artifact to S3 bucket usin AWS CLI
+* SSH to Tomcat server and download artifact using AWS CLI
+* Copy artifact to Tomcat default root folder
 
 ## Architecture
 ![alt text](https://github.com/erikGav/devops-training/blob/main/Lift%26Shift/Architecture.png?raw=true)
