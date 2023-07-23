@@ -28,4 +28,4 @@
 * Copy artifact to Tomcat default root folder
 
 ## Architecture Diagram
-![alt text](https://github.com/erikGav/devops-training/blob/main/Lift%26Shift/Architecture.png?raw=true)
+![alt text](https://github.com/erikGav/devops-training/blob/main/Lift%26Shift/Architecture%20Diagram.png?raw=true)
