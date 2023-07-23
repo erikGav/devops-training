@@ -1,5 +1,8 @@
 # Deploy a Multi Tier web application on AWS
 
+## Introduction
+This project is meant to show how to manually shift an on-prem web app onto AWS
+
 ## Tech Stack
 * RabbitMQ
 * Memcached
