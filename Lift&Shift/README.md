@@ -2,10 +2,10 @@
 
 ## Tech Stack
 Tech Stack:
-	RabbitMQ
-	Memcached
-	MySQL
-	Tomcat
+	* RabbitMQ
+	* Memcached
+	* MySQL
+	* Tomcat
 
 ## AWS Services
 AWS Services:
