@@ -14,11 +14,11 @@ This project is meant to show how to manually shift an on-prem web app onto AWS
 * Security Groups -
 	* Web Server - Allow SSH and load balancer traffic to Tomcat web server
 	* Backend Services - Allow port 3306(MySQL), 11211(RabbitMQ), 5672(Memcached) from web server
-   		     Allow internal traffic between backed services
+   		     Allow internal traffic between backebd services
 	* Load Balancer - Allow HTTP and HTTPS traffic from anywhere
 * Key Pairs - Used to connect with SSH to EC2 instances
 * Route53 - DNS Private zones for services
-* Certificate Manager - Generate a CA signed certificate 
+* Certificate Manager - Generate a CA signed certificate to use on GoDaddy domain
 * Elastic Load Balancer - Map ELB endpoint to website name in GoDaddy DNS
 * S3 Bucket - Store artifact after build
 * Autoscaling Group - Scale app based on load
